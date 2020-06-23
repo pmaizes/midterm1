@@ -1,0 +1,126 @@
+Jour352/652: Midterm
+Part 1: Q&A
+
+
+Directions: When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.
+
+****
+
+
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+
+Google is the best search engine in the world.
+
+<p><a href="http://google.com" target="_blank">Google</a> is the best search engine in the world.</p>
+
+
+
+
+2.  Describe the purpose of a DIV tag.
+
+The DIV tag is a container for HTML content, mostly used for CSS styling purposes.
+
+
+
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title></title>
+
+  </head>
+
+  <body>
+
+  </body>
+</html>
+
+
+
+
+
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+The two main "areas" or "sections" in the basic structure of an HTML page are head and body tags.
+
+I would put a link to a stylesheet in the head tag.
+
+
+
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+I would put text, images or DIV tags in the main body tag of an HTML page.
+
+
+
+
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+
+<div class="graphicbox"></div>
+
+<div id="name"></div>
+
+
+
+
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+<div class="fruit" id="apples">
+
+
+
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+
+.fruit{
+
+  font-color: #000000
+
+}
+
+
+
+
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+<img src="">
+
+
+
+
+10.  Why do we use media queries?
+
+We use media queries to execute CSS style at specific page sizes because it creates rules that only apply when the width of a browser is a certain size.
+
+
+
+
+
+11. What is the main difference between a serif and a sans-serif font?
+
+The main difference between a serif and a sans-serif font is that a serif font has more of a flourish and decorative appeal whereas a sans-serif font is more neutral and does not have extra details.
+
+
+
+
+12. Which of the following is a hexadecimal code?
+
+#FFCC33 -- This one is a hexadecimal code since a hexadecimal code refers to the color code
+
+123,543,242
+101010101
+-213

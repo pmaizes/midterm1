@@ -1,0 +1,109 @@
+
+p{
+  font-family: 'Helvetica', Arial, "sans-serif";
+  font-size: 12px;
+}
+
+#content {
+ margin: 0 auto;
+ width: 900px;
+}
+
+#byline{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#center{
+  text-align: center;
+}
+
+#words{
+  text-align: right;
+}
+
+#fire{
+  text-align: right;
+  image-orientation: right;
+}
+
+h1{
+  font-family: 'Georgia', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  background: orange;
+}
+
+h2{
+  font-family: normal Helvetica, sans-serif;
+  font-size: 8px/10px;
+  font-style: italic;
+  text-align: center;
+}
+
+h4{
+  margin: 0 auto;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #ddd;
+
+}
+
+blockquote{
+  font: 20px/23px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: red;
+  margin-left: 10px;
+  margin: 0 auto;
+  padding-left: 15px;
+  border-left: 4px solid #ddd;
+}
+
+.name{
+  text-transform: uppercase;
+  font: 18px/20px 'serif', sans-serif;
+  color:red;
+}
+
+.info{
+  font-style: bold;
+}
+
+.subhead{
+  text-align: center;
+  font-style: bold;
+  color: orange;
+  font: 20px 'serif', sans-serif;
+  padding: 4px;
+  margin: 0 auto;
+  border: 3px solid #cccccc;
+}
+
+.question{
+  font-size: 17px;
+  color: black;
+}
+
+.quote{
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+}
+
+/* trying to seperate the list from related items */
+.related li{
+  margin:0 auto;
+  padding:0 auto;
+  display: inline;
+  list-style-type: none;
+}
